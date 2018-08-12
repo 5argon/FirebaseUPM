@@ -1,6 +1,8 @@
 # Firebase UPM
 
-If you are tired of Firebase Unity SDK polluting your project with folders and folders it is time to do it Unity Package Manager style. It also included `.asmdef` file to be compatible with your `.asmdef` enabled project. The name to reference is `Google.Firebase`.
+If you are tired of Firebase Unity SDK polluting your project with folders and folders it is time to do it Unity Package Manager style. Plus if you have multiple projects just pulling this repo and the newest version will be delivered to all of your projects.
+
+It also included `.asmdef` file to be compatible with your `.asmdef` enabled project. The name to reference is `Google.Firebase`.
 
 ## How
 
