@@ -14,7 +14,7 @@ You must travel the folder relatively from the `manifest.json` file location.
 
 ### One problem
 
-Everything almost works in UPM, but there is one thing Firebase team hardcoded the path. That is generating the resource file. It specifically looks for your `Assets/Firebase/Editor/pythonfile` and cannot be somewhere else. To fix this, after linking your UPM you have to manually make that folder with that file copied from UPM package.
+Everything almost works in UPM, but Firebase team hardcoded the path to a script for generating the resource file. It specifically looks for your `Assets/Firebase/Editor/generate_xml_from_google_services_json.py` and that cannot be somewhere else. To fix this, after linking your UPM you have to manually make the required folder tree with that file copied from UPM package.
 
 ```
 Generation of the Firebase Android resource file google-services.xml from Assets/SceneFiles/-FirebaseSettings/GoogleService-Info.plist failed.
